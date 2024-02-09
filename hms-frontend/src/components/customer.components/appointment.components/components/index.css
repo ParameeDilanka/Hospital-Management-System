@@ -1,0 +1,133 @@
+.btnUpdateDelete{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #itembody{
+    background-color: rgb(255, 255, 255);
+    height: 180px;
+    width: 1200px;
+    margin-left: 60px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    /* display: flex;
+    flex-direction: column; */
+    border-right: 6px solid red;
+  }
+  
+  #itemOne{
+    margin-left:20px ;
+    width: 1000px;
+  }
+  
+  .modal-dialog{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+  }
+  
+  #sortCategory{
+    margin-left: 1010px;
+    margin-bottom: 20px;
+    background-color: rgb(212, 212, 238);
+  
+  }
+  
+  #sortCategory{
+    margin-left: 1110px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 250px;
+    background-color: rgb(212, 212, 238);
+    position: fixed;
+    left: 0px;
+  }
+  
+  #search{
+    margin-left: 1010px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 250px;
+    background-color: rgb(212, 212, 238);
+    position: fixed;
+  
+  }
+  
+  #navMain{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    padding-left: 80px;
+    height: 80px;
+  }
+  
+  #navMainItems{
+    height: 90px;
+  }
+  
+  #DisplayMain{
+    padding-top: 1px;
+  }
+  
+  #itemMain{
+    margin-top: 90px;
+  }
+  
+  
+  /* imput form */
+  #main{  
+    margin-top: 80px;
+    width: 1000px;
+    background-color: #e6e6e6;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    border-style: solid;
+    border-color: rgb(185, 185, 185) ;
+    border-radius: 10px;
+  }
+  
+  #submit01{
+    color:white ;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 745px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(230, 123, 53);
+  }
+  #submit01:hover{
+    background-color: rgb(216, 34, 34);
+  
+  }
+  
+  #Flex01{
+    padding-left: 0px;
+    padding-top: 13px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #FlexUnits,#FlexWarExp,#Flexwar,#Flexpdate{
+    border-radius: 5px;
+    margin-right: 19px;
+    background-color: rgb(197, 197, 197, 0.788);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  } 
+  
+  
+  #FlexIname,#FlexCate,#FlexCost,#FlexDesc{
+    border-radius: 5px;
+    background-color: rgba(197, 197, 197, 0.788);
+    margin-top: 13px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+  }

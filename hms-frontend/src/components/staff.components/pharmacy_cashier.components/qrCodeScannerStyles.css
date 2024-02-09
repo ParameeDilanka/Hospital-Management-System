@@ -1,0 +1,13 @@
+.itemImageInCashier {
+    max-width: 150px;
+    max-height: 100px;
+}
+
+.quantity{
+    width: 200px;
+}
+
+.form-control {
+    border: 2px solid #4D97F8;    
+    border-radius: 10px;
+}

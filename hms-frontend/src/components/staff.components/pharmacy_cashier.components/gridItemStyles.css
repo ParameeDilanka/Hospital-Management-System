@@ -1,0 +1,29 @@
+/* Shopping_cart.js styles */
+
+.grid-container-1 {
+	grid-template-columns: 1fr;		
+}
+
+.item-1 {
+	padding-right: 1rem;
+}
+
+.scroll-item-1 {
+	height: 260px;
+	overflow-y: scroll;
+	padding-right: 1rem;
+	padding-left: 4px;	
+}
+
+.item-2 {
+	width: 66rem;
+	height: 120px;	
+}
+
+.scroll-item-2 {
+	height: 50px;
+	padding-right: 1rem;
+	padding-left: 4px;
+	padding-top: 5px;	
+}
+

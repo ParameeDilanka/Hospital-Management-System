@@ -1,0 +1,31 @@
+.itemImage {
+    max-width: 80px;
+	max-height: 60px;
+}
+
+.form-control {
+    border: 2px solid #4D97F8;    
+    border-radius: 10px;
+}
+
+tbody tr:hover {
+    background-color: #bcd7fc;
+    cursor: pointer;
+}
+
+th {
+    text-align: left;
+}
+
+.table-1 {
+    margin-top: 5px;
+   
+}
+
+.imagebutton {
+    width: 40px;
+}
+
+.tdSize {
+    width: 160px;
+}

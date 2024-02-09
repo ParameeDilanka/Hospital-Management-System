@@ -1,0 +1,157 @@
+/* Add_pharmacyItem.js styles  */
+
+.grid-container-1 {
+	grid-template-columns: 1fr 1fr;		
+}
+
+.item-1 {
+	padding-right: 1rem;
+}
+
+.scroll-item-1 {
+	height: 404px;
+	overflow-y: scroll;
+	padding-right: 1rem;
+	padding-left: 4px;	
+}
+
+.item-2 {
+	width: 500px;
+}
+
+.scroll-item-2 {
+	height: 450px;
+	text-align: center;
+	
+}
+
+
+
+/* View_listItem.js styles */
+
+.grid-container-2 {
+	grid-template-columns: 1fr;		
+}
+
+.item-3 {
+	padding-right: 1rem;
+}
+
+.scroll-item-3 {
+	height: 360px;
+	overflow-y: scroll;
+	padding-right: 1rem;
+	padding-left: 4px;	
+}
+
+/* View_listStock.js styles */
+
+.grid-container-3 {
+	grid-template-columns: 1fr;		
+}
+
+.item-4 {
+	padding-right: 0rem;
+}
+
+.scroll-item-4 {
+	height: 450px;
+	width: 204px;
+}
+
+.item-5 {
+	padding-right: 1rem;
+}
+
+.scroll-item-5 {
+	height: 333px;
+	overflow-y: scroll;
+	padding-right: 1rem;
+	padding-left: 4px;	
+}
+
+
+/* Add_pharmacyStock.js styles */
+
+.grid-container-4 {
+	grid-template-columns: 1fr 1fr;	
+	grid-template-areas: 
+		"a b"
+		"c b";	
+}
+
+.item-6 {
+	padding-right: 0rem;
+	grid-area: a;
+	height: 280px;
+}
+
+.scroll-item-6 {
+	height: 100%;
+}
+
+.item-7 {
+	padding-right: 1rem;
+	grid-area: b;
+}
+
+.scroll-item-7 {
+	height: 404px;
+	overflow-y: scroll;
+	padding-right: 1rem;
+	padding-left: 4px;	
+}
+
+.item-8 {
+	padding-right: 0rem;
+	grid-area: c;
+	height: 200px;
+}
+
+.scroll-item-8 {
+	text-align: left;
+	display: flex;
+}
+
+
+/* Modify_pharmacyItem.js styles */
+
+.grid-container-5 {
+	grid-template-columns: 1fr 1fr;	
+	grid-template-areas: 
+		"a b"
+		"c b";	
+}
+
+.item-9 {
+	padding-right: 0rem;
+	grid-area: a;
+	height: 280px;
+}
+
+.scroll-item-9 {
+	height: 100%;
+}
+
+.item-10 {
+	padding-right: 1rem;
+	grid-area: b;
+}
+
+.scroll-item-10 {
+	height: 404px;
+	overflow-y: scroll;
+	padding-right: 1rem;
+	padding-left: 4px;	
+}
+
+.item-11 {
+	padding-right: 0rem;
+	grid-area: c;
+	height: 200px;
+}
+
+.scroll-item-11 {
+	text-align: left;
+	display: flex;
+}

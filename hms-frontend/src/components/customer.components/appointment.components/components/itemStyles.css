@@ -1,0 +1,19 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-column-gap: 1rem;
+	grid-row-gap: 1rem;
+  }
+  .item-1 {
+	  padding-right: 1rem;
+  }
+  
+  .scroll-item {
+	  width: 100%;
+	  height: 400px;
+  }
+  
+  .scroll-item-1 {
+	  overflow: hidden;
+	  overflow-y: scroll;
+  }

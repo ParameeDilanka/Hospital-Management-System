@@ -1,0 +1,62 @@
+.itemImage {
+    max-width: 120px;
+	max-height: 100px;
+}
+
+.itemImageInStockList {
+    max-width: 100px;
+	max-height: 72px;
+}
+
+.itemImageInAddStock {
+    max-width: 200px;
+	max-height: 150px;
+    margin-left: 100px;
+}
+
+.add-btn {
+	margin-left: 4rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.clear-btn {
+	margin-left: 7rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.addNewStockBtn {
+	margin-left: 18rem;
+}
+
+.addNewStockBtnI {
+	margin-right: 10px;
+}
+
+.docImgInAddItem {
+	
+	padding-bottom: 50px;
+}
+
+.capsulepillsimgInAddStock {
+	height: 150px;
+	padding-right: 30px;
+}
+
+/* View_sales_report.js styles */
+.reportMonth {
+	padding-left: 500px;
+}
+
+.reportDownloadBtn {
+	padding-left: 100px;
+}
+
+.totalQuantity {
+	padding-left: 600px;
+}
+
+.totalIncome {
+	padding-left: 30px;
+}

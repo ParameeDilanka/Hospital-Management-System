@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* hedding color */
+.blue-hedding {
+  color: #084587;
+}
+
+/* button style */
+.btn {
+  border-radius: 10px;
+}
+
+/* main container style */
+.main-container {
+  position: fixed;
+  padding: 4rem 4rem 4rem 4rem;
+  background-color:#4D97F8;
+  height: 100%;
+}
+
+/* flex box container (sidebar, content container)*/
+.flex-box-container {
+  height: 595px;
+  width: 1408px;
+  border-radius: 40px;
+  display: flex;
+  align-items: stretch;
+}
+
+
+/*begin of sidebar css*/
+
+.sidebar-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 40px 0 0 40px;
+  padding: 25px 0 25px 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 18.5%;  
+}
+
+/*begin of logo css*/
+
+.logoImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 4px;
+  width: 68%;
+}
+
+/*end of logo css*/
+
+/*begin of profile container css*/
+
+.profile-container {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  padding-left: 12px;
+  padding-right: 10px;
+}
+
+.profileImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  width: 44%;
+}
+
+/*.profileImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}*/
+
+.profileImg:hover {
+  cursor: pointer;
+}
+
+/*end of profile container css*/
+
+/*begin of sidebar menu css*/
+
+.sidebar-menu {
+  padding: 25px 25px 0 0;
+}
+
+.sidebar-menu ul li {  
+  display: block;  
+}
+
+.sidebar-menu ul li i {
+  padding-right: 10px;
+}
+
+.menu-link:hover {
+    cursor: pointer;
+    background: #4D97F8;
+    color: #fff;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+} 
+
+.menu-link {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  width: 100%;
+  line-height: 50px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+/*end of sidebar menu css*/
+
+/*begin of logout css*/
+
+.logout {
+  text-align: center;
+  position: sticky;
+  padding-right: 25px;
+  top: 100%;
+}
+
+.logout ul li {
+  color: black;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.logout ul li:hover {
+    cursor: pointer;
+    background: #4D97F8;
+    color: #fff;
+    border-radius: 100px 100px 100px 100px;
+}   
+
+.logout i {
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+/*end of logout css*/
+
+/* content container */
+.content-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 0 40px 40px 0;
+  padding: 45px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 81.5%;
+}
+
+/*begin of scrollbar css*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4D97F8; 
+  border-radius: 10px;
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3370FF; 
+
+}
+
+/*end of scrollbar css*/
